@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>This profile allows specified applications to Set Email Signature.</string>
+			<key>PayloadDisplayName</key>
+			<string>Privacy Settings Whitelist - Apple</string>
+			<key>PayloadIdentifier</key>
+			<string>com.company.apple.tcc.privacy.whitelist.2185A8CA-6831-11E9-8993-ACDE48001122</string>
+			<key>PayloadOrganization</key>
+			<string>GPG</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>2185A8CA-6831-11E9-8993-ACDE48001122</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>AppleEvents</key>
+				<array>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.microsoft.Outlook" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.microsoft.Outlook</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.apple.Terminal" and anchor apple</string>
+						<key>Comment</key>
+						<string>Allow Terminal to send AppleEvents control to Microsoft Outlook</string>
+						<key>Identifier</key>
+						<string>com.apple.Terminal</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+										<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>identifier "com.microsoft.Outlook" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.microsoft.Outlook</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.apple.sshd-keygen-wrapper" and anchor apple</string>
+						<key>Comment</key>
+						<string>Allow SystemPolicyAllFiles control for sshd-keygen-wrapper</string>
+						<key>Identifier</key>
+						<string>/usr/libexec/sshd-keygen-wrapper</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+				</array>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.apple.Terminal" and anchor apple</string>
+						<key>Comment</key>
+						<string>Allow SystemPolicyAllFiles control for Terminal</string>
+						<key>Identifier</key>
+						<string>com.apple.Terminal</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.apple.sshd-keygen-wrapper" and anchor apple</string>
+						<key>Comment</key>
+						<string>Allow SystemPolicyAllFiles control for sshd-keygen-wrapper</string>
+						<key>Identifier</key>
+						<string>/usr/libexec/sshd-keygen-wrapper</string>
+						<key>IdentifierType</key>
+						<string>path</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>This profile allows specified applications to Set Email Signature.</string>
+	<key>PayloadDisplayName</key>
+	<string>Privacy Settings Whitelist - Apple</string>
+	<key>PayloadIdentifier</key>
+	<string>com.company.apple.tcc.privacy.whitelist</string>
+	<key>PayloadOrganization</key>
+	<string>GPG</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>system</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>2188B44A-6831-11E9-94C7-ACDE48001122</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
